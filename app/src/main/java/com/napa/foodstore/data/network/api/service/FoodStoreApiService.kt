@@ -1,7 +1,7 @@
 package com.napa.foodstore.data.network.api.service
 
 import com.chuckerteam.chucker.api.ChuckerInterceptor
-import com.napa.foodstore.BuildConfig
+import com.napa.foodstore.BuildConfig.BASE_URL
 import com.napa.foodstore.data.network.api.model.category.CategoriesResponse
 import com.napa.foodstore.data.network.api.model.menu.MenusResponse
 import com.napa.foodstore.data.network.api.model.order.OrderRequest
@@ -35,7 +35,7 @@ interface FoodStoreApiService {
                 .readTimeout(120, TimeUnit.SECONDS)
                 .build()
             val retrofit = Retrofit.Builder()
-                .baseUrl(BuildConfig.BASE_URL)
+                .baseUrl(BASE_URL)
                 .addConverterFactory(GsonConverterFactory.create())
                 .client(okHttpClient)
                 .build()

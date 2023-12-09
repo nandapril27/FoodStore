@@ -17,7 +17,7 @@ abstract class AppDatabase : RoomDatabase() {
     abstract fun cartDao(): CartDao
 
     companion object {
-        private const val DB_NAME = "FoodStoreChallengeCh3.db"
+        private const val DB_NAME = "FoodStore"
         fun getInstance(context: Context): AppDatabase {
             return Room.databaseBuilder(
                 context.applicationContext,
