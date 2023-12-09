@@ -1,15 +1,15 @@
 {
   "project_info": {
-    "project_number": "519647989030",
-    "project_id": "foodstorechallenge-panipy",
-    "storage_bucket": "foodstorechallenge-panipy.appspot.com"
+    "project_number": "12345678",
+    "project_id": "foodstore-nandapril",
+    "storage_bucket": "foodstore-nandapril.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:519647989030:android:6ff18731ed38cc6e9585e7",
+        "mobilesdk_app_id": "1:12345678:android:6ff18731ed38cc6e9585e7",
         "android_client_info": {
-          "package_name": "com.napa.foodstorechallengech3"
+          "package_name": "com.napa.foodstore"
         }
       },
       "oauth_client": [],
