@@ -88,8 +88,8 @@ class ProfileFragment : Fragment() {
             binding.layoutForm.etEmail.setText(it.email)
             binding.ivProfilePict.load(it.photoUrl) {
                 crossfade(true)
-                placeholder(R.drawable.img_oppa)
-                error(R.drawable.img_oppa)
+                placeholder(R.drawable.img_profile)
+                error(R.drawable.img_profile)
                 transformations(CircleCropTransformation())
             }
         }

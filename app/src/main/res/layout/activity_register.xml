@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".presentation.feature.register.RegisterActivity">
 
     <TextView
@@ -21,26 +22,13 @@
         android:textColorHighlight="@color/grey"
         android:text="@string/text_header_greeting_register" />
 
-    <TextView
-        android:id="@+id/tv_desc_greeting"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_greeting"
-        android:textColor="@color/app_color_primary"
-        android:fontFamily="@font/poppins_medium"
-        android:layout_marginTop="4dp"
-        android:textSize="16sp"
-        android:text="@string/text_desc_greeting_register" />
-
     <ImageView
         android:id="@+id/iv_logo_app"
         android:layout_width="230dp"
         android:layout_height="200dp"
         android:layout_marginTop="16dp"
         android:src="@drawable/img_register"
-        app:layout_constraintTop_toBottomOf="@+id/tv_desc_greeting"
+        app:layout_constraintTop_toBottomOf="@+id/tv_greeting"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
     <include
@@ -66,6 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/app_color_primary"
+            android:textColor="@color/white"
             android:text="@string/text_register" />
 
         <com.google.android.material.progressindicator.CircularProgressIndicator
@@ -84,6 +73,7 @@
         android:layout_marginHorizontal="16dp"
         android:layout_marginTop="16dp"
         android:text="@string/text_already_have_an_account_click_here"
+        android:textColor="@color/black"
         android:textAlignment="center"
         app:layout_constraintTop_toBottomOf="@id/fl_btn_loading_state"
         tools:layout_editor_absoluteX="16dp" />

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".presentation.feature.checkout.CheckoutActivity">
 
     <LinearLayout
@@ -63,6 +64,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/white"
             android:paddingHorizontal="18dp"
             android:paddingVertical="12dp">
             <Button
@@ -73,6 +75,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
+                android:textColor="@color/white"
                 android:backgroundTint="@color/app_color_primary"/>
 
         </androidx.constraintlayout.widget.ConstraintLayout>

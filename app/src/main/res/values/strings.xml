@@ -22,7 +22,7 @@
     <string name="text_title_payment_method">Metode Pembayaran</string>
     <string name="text_cash">Tunai</string>
     <string name="text_e_wallet">Digital</string>
-    <string name="text_shopping_summary">Detail Pembayaran</string>
+    <string name="text_shopping_summary">Detail Pembayaran \n</string>
     <string name="text_checkout">Pesan</string>
     <string name="text_already_have_an_account_click_here">Already have an Account ? Login Here</string>
     <string name="text_register">Register</string>

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".presentation.feature.detailmenu.DetailMenuActivity">
 
     <ImageButton
@@ -46,6 +47,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             android:textStyle="bold"
+            android:textColor="@color/black"
             tools:text="Spicy Burger"/>
         <TextView
             android:id="@+id/tv_price_menu"
@@ -53,6 +55,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             app:layout_constraintEnd_toEndOf="parent"
+            android:textColor="@color/black"
             tools:text="Rp. 25.000"
             android:textStyle="bold"
             app:layout_constraintTop_toTopOf="parent" />
@@ -64,6 +67,7 @@
             app:layout_constraintTop_toBottomOf="@+id/tv_menu_name"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            android:textColor="@color/black"
             tools:text="Daging gurih dengan saus pedas, sajikan dengan saunan segar dan keju leleh dalam roti burger yang meledakkan rasa pedas. Panasnya memabukkan!"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -107,11 +111,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
+                android:textColor="@color/black"
                 android:text="@string/text_location"/>
             <TextView
                 android:id="@+id/tv_location"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/black"
                 tools:text="Jl. Bumi No.58 A, Gunung, Kec. Kby. Baru, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12120"/>
 
         </LinearLayout>
@@ -134,19 +140,20 @@
             app:cardCornerRadius="16dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent">
+
             <LinearLayout
                 android:id="@+id/ll_count"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="38dp"
+                android:background="@color/white"
                 android:orientation="horizontal"
-                android:background="@drawable/bg_button_rounded_border_transparent"
                 android:padding="8dp">
 
                 <ImageView
                     android:id="@+id/iv_minus"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:src="@drawable/ic_minus"/>
+                    android:src="@drawable/ic_minus" />
 
                 <TextView
                     android:id="@+id/tv_product_count"
@@ -154,12 +161,14 @@
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="8dp"
                     android:text="@string/text_number"
+                    android:textColor="@color/black"
                     android:textSize="20sp" />
+
                 <ImageView
                     android:id="@+id/iv_plus"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:src="@drawable/ic_plus"/>
+                    android:src="@drawable/ic_plus" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -183,6 +192,7 @@
                 android:maxLines="1"
                 android:textSize="18sp"
                 android:textStyle="bold"
+                android:textColor="@color/black"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/fl_add_to_cart"
                 app:layout_constraintStart_toStartOf="parent"
@@ -195,6 +205,7 @@
                 android:layout_marginEnd="8dp"
                 android:layout_weight="1"
                 android:text="@string/text_add_to_cart"
+                android:textColor="@color/white"
                 android:backgroundTint="@color/app_color_primary"/>
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
