@@ -1,4 +1,4 @@
-# FoodStoreChallengeCh3
+# FoodStore
 Image Banner = https://www.freepik.com/free-photo/group-three-friends-enjoying-burgers_10747103.htm#query=people%20eating%20burger&position=6&from_view=search&track=ais
 Image Triple Burger = https://www.freepik.com/free-photo/fast-food-junk-food-concept_1166524.htm#query=triple%20burger&position=9&from_view=search&track=ais
 plugins figma, iconify
