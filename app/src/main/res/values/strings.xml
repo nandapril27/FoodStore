@@ -50,7 +50,7 @@
     <string name="text_header_confirmation_order">Konfirmasi Pesanan</string>
     <string name="desc_image_button">image button back</string>
     <string name="text_add_to_cart">Tambahkan ke keranjang</string>
-    <string name="text_header_greeting_login">Welcome back!</string>
+    <string name="text_header_greeting_login">Welcome !</string>
     <string name="text_desc_greeting">Login to your account</string>
     <string name="text_header_greeting_register">Register</string>
     <string name="text_desc_greeting_register">Let\'s get started. Are you ready \n to be a part of something new?</string>
